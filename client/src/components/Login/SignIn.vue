@@ -36,9 +36,10 @@
                             this.username,
                             'welcome',
                             'success'
-                        ).then(() => {
+                        )/*.then(() => {
                             window.location.href = "https://stackoverflow.com/questions/35760943/how-can-i-enable-cors-on-django-rest-framework";
-                        })
+                        })*/
+                        window.location.href = "https://stackoverflow.com/questions/35760943/how-can-i-enable-cors-on-django-rest-framework";
                     }
                     console.log(response.data)
                 } catch (error) {
