@@ -32,22 +32,24 @@
                         password: this.password
                     })
                     if( response.data ){
-                        Swal.fire(
+                        /*Swal.fire(
                             this.username,
                             'welcome',
                             'success'
-                        )/*.then(() => {
+                        ).then(() => {
                             window.location.href = "https://stackoverflow.com/questions/35760943/how-can-i-enable-cors-on-django-rest-framework";
                         })*/
+                        alert("Welcome " + this.username)
                         window.location.href = "https://stackoverflow.com/questions/35760943/how-can-i-enable-cors-on-django-rest-framework";
                     }
                     console.log(response.data)
                 } catch (error) {
-                    Swal.fire(
+                    /*Swal.fire(
                         'Not found',
                         'user not found',
                         'error'
-                    )
+                    )*/
+                    alert("User no found")
                     console.log(error)
                 }
                 
