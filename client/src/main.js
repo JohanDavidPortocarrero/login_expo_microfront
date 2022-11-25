@@ -5,14 +5,14 @@ import VueSweetalert2 from 'vue-sweetalert2';
 import App from './App'
 import router from './router'
 
-import BootstrapVue from 'bootstrap-vue'
+//import BootstrapVue from 'bootstrap-vue'
 Vue.use(VueSweetalert2);
 
-import 'bootstrap/js/dist/util';
-import 'bootstrap/js/dist/dropdown';
+//import 'bootstrap/js/dist/util';
+//import 'bootstrap/js/dist/dropdown';
 
 Vue.config.productionTip = false
-Vue.use(BootstrapVue);
+//Vue.use(BootstrapVue);
 
 /* eslint-disable no-new */
 new Vue({

@@ -1,6 +1,9 @@
 ./api/login_service/Dockerfile
 ./client/Dockerfile
+./api/login_service/Procfile
+./client/Procfile
 Dockerfile
+Procfile
 venv/
 ./api/venv/
 node_modules/

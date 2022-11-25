@@ -3,12 +3,12 @@
         <div class="cont_form">
             <h2>Login</h2>
             <div class="cont_input">
-                <input type="email" v-model="username" placeholder="Correo Electronico" required />
+                <input type="email" v-model="username" placeholder="Username" required />
                 <input type="password" v-model="password" placeholder="Contraseña" required />
             </div>
             <button class="btn_ingresar" v-on:click="validar">Ingresar</button>
         </div>
-    </div>
+    </div> 
 </template>
 
 <script>
@@ -26,7 +26,7 @@
         methods: {
             async validar() {
                 try {
-                    const path = 'http://127.0.0.1:8000/api/v1.0/api/login/'
+                    const path = 'https://back-microfront.herokuapp.com/api/v1.0/api/login/'
                     let response = await axios.post(path, {
                         username: this.username,
                         password: this.password
